@@ -1,0 +1,2 @@
+create table employee_table(employee_id number(11),email varchar2(255),employee_name varchar2(255), gender varchar2(25) default NULL,
+salary number(9,3),CONSTRAINT pk_EmployeeID PRIMARY KEY (employee_id));
